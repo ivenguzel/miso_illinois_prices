@@ -91,7 +91,7 @@ After training, we got
 Obviously, it is odd to get lower test error than the validation error. However, we split the data chronologically. So, we performed a sanitary check to verify that the validation period has more spikes / higher variance than test. Also, this window have overall lower prices. 
 
 See the prediction results below. We did very poorly on predicting the spikes:
-<img width="1589" height="390" alt="Image" src="https://github.com/user-attachments/assets/1bafd98c-b8d8-4e05-b47d-1f3a308af14d" />
+<img width="1590" height="390" alt="Image" src="https://github.com/user-attachments/assets/72776a2c-4aab-4955-afb9-709e44d25a75" />
 
 <img width="1584" height="390" alt="Image" src="https://github.com/user-attachments/assets/42e4096a-4880-402a-a8c4-785197fdaa7d" />
 
