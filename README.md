@@ -109,11 +109,12 @@ In this notebook, we trained an **LSTM** to predict the next-hour target without
 - **Used Huber loss** for the same reasing before.
 
 See the prediction results below. Although our test set error is a little better. Again, we did very poorly on predicting the spikes. In fact, even worse that the MLP model. The LSTM model from sequences so it smoothed the next hour prediction more. 
-<img width="1590" height="390" alt="Image" src="https://github.com/user-attachments/assets/9e95e46e-b61d-478b-862a-594b7215ab59" />
+See the prediction results below. We did very poorly on predicting the spikes:
+![train_lstm](./docs/images/train_lstm.png)
 
-<img width="1584" height="390" alt="Image" src="https://github.com/user-attachments/assets/f7b80dbd-c1cd-4c35-a611-8533c1a4bf13" />
+![val_lstm](./docs/images/val_lstm.png)
 
-<img width="1589" height="390" alt="Image" src="https://github.com/user-attachments/assets/dc4dd5f7-f9de-47e4-82ed-7004acfe25ee" />
+![test_lstm](./docs/images/test_lstm.png)
 
 ## Milestone 4: 
 In the original project description, this step is about preparing a Feature Importance notebook discussing feature importance. I haven't done this step (yet?).  
