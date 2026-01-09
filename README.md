@@ -16,7 +16,7 @@ The big motivation is: If we can predict the Illinois Hub real-time price using 
 
 The _small_ motivation is my personal motivation behind the changes I made in the original project description. I am going to explain it soon, but first observe the the target label and features. 
 
-**Label:** [Actual Energy Price for ILLINOIS.HUB ](https://www.energyonline.com/Data/GenericData.aspx?DataId=8&MISO___Actual_Energy_Price)
+**Label:** Actual Energy Price for ILLINOIS.HUB 
 
 **In this project, we try to predict the actual (Real-Time Market) prices for the Illinois Hub for the next hour based on forecasted information using an RNN model.**
 
