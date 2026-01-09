@@ -10,7 +10,7 @@ In the Day-Ahead Market, participants submit bids and offers for electricity sup
 
 On the other hand, the Real-Time Market operates continuously throughout the day to balance supply and demand in real time. This market provides a mechanism to account for unexpected changes in demand or generation. The prices can differ significantly from those in the Day-Ahead Market due to real-time system conditions. See the figure below.
 
-<img width="1265" height="624" alt="Image" src="https://github.com/user-attachments/assets/9388f771-0e20-4fb9-be43-fa60db1e64cd" />
+![DA_vs_RT](./docs/images/DA_vs_RT.png)
 
 The big motivation is: If we can predict the Illinois Hub real-time price using information we know ahead of time (like forecasts and day-ahead results, and previous real time prices), participants can plan better and reduce the risk from those sudden price moves.
 
