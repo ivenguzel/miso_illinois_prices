@@ -91,11 +91,12 @@ After training, we got
 Obviously, it is odd to get lower test error than the validation error. However, we split the data chronologically. So, we performed a sanitary check to verify that the validation period has more spikes / higher variance than test. Also, this window have overall lower prices. 
 
 See the prediction results below. We did very poorly on predicting the spikes:
-<img width="1590" height="390" alt="Image" src="https://github.com/user-attachments/assets/f1032f06-e025-41ea-adf9-bb6fd48aa5d9" />
+![train_mlp](./docs/images/train_mlp.png)
 
-<img width="1584" height="390" alt="Image" src="https://github.com/user-attachments/assets/42e4096a-4880-402a-a8c4-785197fdaa7d" />
+![val_mlp](./docs/images/val_mlp.png)
 
-<img width="1589" height="390" alt="Image" src="https://github.com/user-attachments/assets/3442459d-549b-433c-9bb9-e65c70f011c5" />
+![test_mlp](./docs/images/test_mlp.png)
+
 
 ## Milestone 3:  RNN Learning (LSTM, no engineered lags)
 In this notebook, we trained an **LSTM** to predict the next-hour target without using explicit lag features, because we want the model to learn temporal dependence directly from sequences (instead of hard-coding it with lag engineering). We did the following:
